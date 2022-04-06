@@ -4,6 +4,6 @@ In this workshop, we will train a deep learning model in a distributed manner us
 
 ## Requirements
 
-A recommended Databricks ML Runtime >= 7.3LTS is suggested.
+A recommended Databricks ML Runtime >= 7.3LTS is suggested. Please use the [repos](https://docs.databricks.com/repos/index.html) feature to clone into your repo and access the notebook.
 
 
