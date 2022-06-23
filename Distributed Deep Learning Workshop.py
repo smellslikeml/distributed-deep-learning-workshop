@@ -504,7 +504,7 @@ mlflow.end_run()
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### Single node vs Distributed Training Cosiderations
+# MAGIC ### Single node vs Distributed Training Considerations
 # MAGIC 
 # MAGIC Whether you choose to train in a distributed manner or using a single VM will be highly dependent on the scale of your training data and architecture complexity + size. There may be instances where leveraging Petastorm will help get past memory issues around dataset loading but distributing training across a cluster may add too much additional training time and/or underutilized resources.
 # MAGIC 
