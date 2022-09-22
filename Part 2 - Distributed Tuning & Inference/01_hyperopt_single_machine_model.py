@@ -176,7 +176,9 @@ def objective_function(params):
     
     _, accuracy = model.evaluate(val_ds)
     
-    return {'loss': accuracy, 'status': STATUS_OK}
+    # Hyperopt will optimize to **minimize** the returned 'loss'
+    # Given that we want to **maximize** accuracy, we return -accuracy
+    return {'loss': -accuracy, 'status': STATUS_OK}
 
 # COMMAND ----------
 
